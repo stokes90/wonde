@@ -14,7 +14,7 @@ class ApiSettingSeeder extends Seeder
     public function run(): void
     {
         //
-        
+       
         
         DB::table('api_setting')->insert([
             'name' => 'bearer_token',
@@ -22,7 +22,7 @@ class ApiSettingSeeder extends Seeder
         ]);
         DB::table('api_setting')->insert([
             'name' => 'base_uri',
-            'value' => 'https://api.wonde.com/v1.0/',
+            'value' => 'https://api.wonde.com/v1.0/schools',
         ]);
         DB::table('api_setting')->insert([
             'name' => 'school_id',
